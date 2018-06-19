@@ -72,7 +72,11 @@ body {
   position: relative;
   float: left;
 }
-
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
 .quotes {
   background-image: url("quote-background.png");
   width: 100%;
