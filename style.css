@@ -64,10 +64,23 @@ body {
 
 .video {
   background-image: url("player.png");
+  width: 556px;
+  min-height: 318px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  float: left;
 }
 
 .quotes {
-  background-image: url("middle.png");
+  background-image: url("quote-background.png");
+  width: 100%;
+  min-height: 401px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 footer {
