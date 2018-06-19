@@ -30,9 +30,37 @@ body {
 }
 
 .grid {
-  min-height: 100%;
+  display: grid;
+  margin: 0 auto;
+  min-height: 325px;
+  min-width: 918px;
+  grid-template-rows: 144px 144px;
+  grid-template-columns: 430px 430px;
+  grid-gap: 20px;
+  justify-content: center;
+  align-content: center;
+  /*found solution on stack overflow*/
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.stats {
+  background-image: url("middle.png");
+  min-height: 303px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+}
+
+.stats-content {
   display: flex;
-  flex-direction: row;
+  justify-content: space-around;
+  color: #ffffff;
 }
 
 footer {
