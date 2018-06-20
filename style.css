@@ -66,6 +66,15 @@ body {
   text-align: center;
 }
 
+.about {
+  width: 946px;
+  min-height: 265px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.embedded {
+  min-height: 318px;
+}
 .video {
   background-image: url("player.png");
   width: 556px;
@@ -75,6 +84,15 @@ body {
   background-size: cover;
   position: relative;
   float: left;
+}
+
+/*.video-text {
+  width: 359px;
+  height: 160px;
+}*/
+
+.test {
+  margin-bottom: 300px;
 }
 .cards {
   display: flex;
@@ -118,4 +136,8 @@ footer {
   min-height: 180px;
   display: flex;
   justify-content: space-evenly;
+}
+
+footer div {
+  margin-top: 70px;
 }
