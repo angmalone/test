@@ -12,6 +12,29 @@ body {
 h2 {
   font-family: "Cera Basic";
 }
+
+h3 {
+  font-family: "Cera Basic";
+  font-size: 30px;
+}
+
+h5 {
+  font-family: "Cera Basic";
+  font-size: 22px;
+}
+
+h5 {
+  font-family: "Cera Basic";
+  font-size: 16px;
+}
+
+p {
+  font-family: "Cera Basic";
+  font-size: 20px;
+  font-weight: normal;
+  color: 666d78;
+}
+
 body {
   margin: 0 auto;
   padding: 0;
@@ -30,20 +53,15 @@ header a {
   color: #ffffff;
 }
 
-header img {
-  display: inline;
-  margin-left: 150px;
-}
-
 .header-links {
   display: inline-block;
   line-height: 5px;
-  margin-left: 800px;
+  float: right;
 }
 
 .hero {
   background-image: url("hero.png");
-  min-height: 800px;
+  height: 100%;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -111,6 +129,10 @@ header img {
   max-width: 800px;
 }
 
+.updates h3 {
+  font-size: 36px;
+  color: #2da1f8;
+}
 .input-small {
   width: 165px;
   height: 60px;
@@ -126,6 +148,22 @@ header img {
 .submit {
   width: 165px;
   height: 60px;
+  background-color: #ffc579;
+  background-image: linear-gradient(
+    to top,
+    #3f51b1 0%,
+    #5a55ae 13%,
+    #7b5fac 25%,
+    #8f6aae 38%,
+    #a86aa4 50%,
+    #cc6b8e 62%,
+    #f18271 75%,
+    #f3a469 87%,
+    #f7c978 100%
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 div {
@@ -138,8 +176,17 @@ div {
   margin: 0 auto;
   margin-top: 50px;
 }
+
+.about p {
+  font-size: 18px;
+}
 .embedded {
-  min-height: 318px;
+  min-height: 400px;
+  display: inline-block;
+}
+
+.embedded p {
+  font-size: 16px;
 }
 .video {
   background-image: url("player.png");
@@ -150,12 +197,13 @@ div {
   background-size: cover;
   position: relative;
   float: left;
+  margin-left: 135px;
 }
 
-/*.video-text {
+.video-text {
   width: 359px;
-  height: 160px;
-}*/
+  float: right;
+}
 
 .test {
   margin-bottom: 300px;
@@ -172,6 +220,10 @@ div {
 
 .card:hover {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 50);
+}
+
+.card-text {
+  font-size: 14px;
 }
 
 .quotes {
@@ -192,6 +244,11 @@ div {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 946px;
+}
+
+.quote-text h2 {
+  font-size: 40px;
 }
 
 .map {
@@ -210,4 +267,8 @@ footer {
 
 footer div {
   margin-top: 70px;
+}
+
+footer p {
+  font-size: 18px;
 }
