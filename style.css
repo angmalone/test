@@ -32,6 +32,8 @@ body {
 .grid {
   display: grid;
   margin: 0 auto;
+  margin-top: 105px;
+  margin-bottom: 150px;
   min-height: 325px;
   min-width: 918px;
   grid-template-rows: 144px 144px;
@@ -60,6 +62,8 @@ body {
   display: flex;
   justify-content: space-around;
   color: #ffffff;
+  padding-top: 100px;
+  text-align: center;
 }
 
 .video {
@@ -77,6 +81,11 @@ body {
   justify-content: space-evenly;
   width: 100%;
 }
+
+.card-body:hover {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 50);
+}
+
 .quotes {
   background-image: url("quote-background.png");
   width: 100%;
