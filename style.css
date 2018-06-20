@@ -9,6 +9,29 @@ body {
   padding: 0;
 }
 
+header {
+  background-color: transparent;
+  color: #ffffff;
+  z-index: 1;
+  position: absolute;
+  padding-top: 50px;
+}
+
+header a {
+  color: #ffffff;
+}
+
+header img {
+  display: inline;
+  margin-left: 150px;
+}
+
+.header-links {
+  display: inline-block;
+  line-height: 5px;
+  margin-left: 800px;
+}
+
 .hero {
   background-image: url("hero.png");
   min-height: 800px;
