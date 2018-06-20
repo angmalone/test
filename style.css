@@ -28,7 +28,15 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.email {
+  height: 60px;
+  width: 458px;
+}
 
+.arrow {
+  height: 60px;
+  width: 98px;
+}
 .grid {
   display: grid;
   margin: 0 auto;
