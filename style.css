@@ -66,6 +66,32 @@ body {
   text-align: center;
 }
 
+.updates {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.input-small {
+  width: 165px;
+  height: 60px;
+  margin-right: 15px;
+}
+
+.input-large {
+  width: 360px;
+  height: 60px;
+  margin-right: 15px;
+}
+
+.submit {
+  width: 165px;
+  height: 60px;
+}
+
+div {
+  margin-bottom: 30px;
+}
+
 .about {
   width: 946px;
   min-height: 265px;
@@ -98,6 +124,10 @@ body {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
+}
+
+.row {
+  margin-top: 30px;
 }
 
 .card-body:hover {
