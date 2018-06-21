@@ -9,6 +9,32 @@ body {
   src: url("cerabasic-regular-webfont.ttf") format("ttf");
 }
 
+@font-face {
+  font-family: "Cera Basic Bold";
+  src: url("cerabasic-bold-webfont.ttf") format("ttf");
+}
+
+::-webkit-input-placeholder {
+  font-family: "Cera Basic";
+  padding-left: 30px;
+  color: #666d78;
+}
+::-moz-placeholder {
+  font-family: "Cera Basic";
+  padding-left: 30px;
+  color: #666d78;
+}
+:-ms-input-placeholder {
+  font-family: "Cera Basic";
+  padding-left: 30px;
+  color: #666d78;
+}
+::placeholder {
+  font-family: "Cera Basic";
+  padding-left: 30px;
+  color: #666d78;
+}
+
 h2 {
   font-family: "Cera Basic";
 }
@@ -28,6 +54,15 @@ h5 {
   font-size: 16px;
 }
 
+.card-title {
+  font-size: 22px;
+}
+
+h7 {
+  font-family: "Cera Basic";
+  font-size: 16px;
+  color: #666d78;
+}
 p {
   font-family: "Cera Basic";
   font-size: 20px;
@@ -35,6 +70,9 @@ p {
   color: 666d78;
 }
 
+placeholder {
+  font-family: "Cera Basic";
+}
 body {
   margin: 0 auto;
   padding: 0;
@@ -46,17 +84,29 @@ header {
   z-index: 1;
   position: absolute;
   padding-top: 50px;
+  padding-left: 150px;
   width: 100%;
 }
 
 header a {
   color: #ffffff;
+  font-family: "Cera Basic";
+  font-size: 18px;
 }
 
 .header-links {
   display: inline-block;
   line-height: 5px;
   float: right;
+  padding-right: 150px;
+}
+
+button {
+  background-color: #57b7ff;
+  color: #ffffff;
+  width: 150px;
+  height: 50px;
+  border: none;
 }
 
 .hero {
@@ -78,14 +128,23 @@ header a {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.hero-content h2 {
+  font-size: 48px;
+}
 .email {
   height: 60px;
   width: 458px;
+  border: none;
 }
 
 .arrow {
   height: 60px;
   width: 98px;
+  background-image: linear-gradient(45deg, #f79010, #ffd16b);
+  color: #ffffff;
+  border: none;
+  margin-left: -5px;
 }
 .grid {
   display: grid;
@@ -116,6 +175,10 @@ header a {
   z-index: 0;
 }
 
+.stats h3 {
+  font-size: 64px;
+  font-weight: bold;
+}
 .stats-content {
   display: flex;
   justify-content: space-around;
@@ -126,6 +189,7 @@ header a {
 
 .updates {
   margin: 0 auto;
+  margin-top: 115px;
   max-width: 800px;
 }
 
@@ -148,22 +212,9 @@ header a {
 .submit {
   width: 165px;
   height: 60px;
-  background-color: #ffc579;
-  background-image: linear-gradient(
-    to top,
-    #3f51b1 0%,
-    #5a55ae 13%,
-    #7b5fac 25%,
-    #8f6aae 38%,
-    #a86aa4 50%,
-    #cc6b8e 62%,
-    #f18271 75%,
-    #f3a469 87%,
-    #f7c978 100%
-  );
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+  background-image: linear-gradient(45deg, #f79010, #ffd16b);
+  color: #ffffff;
+  border: none;
 }
 
 div {
@@ -174,7 +225,7 @@ div {
   width: 946px;
   min-height: 265px;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 210px;
 }
 
 .about p {
@@ -203,10 +254,11 @@ div {
 .video-text {
   width: 359px;
   float: right;
+  margin-left: 120px;
 }
 
 .test {
-  margin-bottom: 300px;
+  margin-bottom: 290px;
 }
 .cards {
   display: flex;
@@ -244,7 +296,7 @@ div {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 946px;
+  max-width: 950px;
 }
 
 .quote-text h2 {
