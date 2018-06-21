@@ -73,6 +73,7 @@ p {
 placeholder {
   font-family: "Cera Basic";
 }
+
 body {
   margin: 0 auto;
   padding: 0;
@@ -132,19 +133,23 @@ button {
 .hero-content h2 {
   font-size: 48px;
 }
-.email {
+.email,
+.form-control {
   height: 60px;
   width: 458px;
   border: none;
+  border-radius: 0;
 }
 
-.arrow {
+.arrow,
+.btn-outline-secondary {
   height: 60px;
   width: 98px;
   background-image: linear-gradient(45deg, #f79010, #ffd16b);
   color: #ffffff;
   border: none;
   margin-left: -5px;
+  border-radius: 0;
 }
 .grid {
   display: grid;
