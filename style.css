@@ -258,6 +258,10 @@ button {
   right: 0;
 }
 
+.bootstrap-grid {
+  padding: 105px 240px 150px 240px;
+}
+
 .stats {
   background-image: url("middle.png");
   min-height: 303px;
@@ -410,6 +414,7 @@ footer {
   min-height: 180px;
   display: flex;
   justify-content: space-evenly;
+  align-content: center;
 }
 
 footer div {
