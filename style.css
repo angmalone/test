@@ -66,8 +66,8 @@ h7 {
 p {
   font-family: "Cera Basic";
   font-size: 20px;
-  font-weight: normal;
-  color: 666d78;
+  /*font-weight: normal;*/
+  /*color: #666d78;*/
 }
 
 placeholder {
@@ -95,6 +95,89 @@ header a {
   font-size: 18px;
 }
 
+.navbar {
+  font-size: 18px;
+  border: none;
+  padding-bottom: 10px;
+}
+
+#main-nav {
+  list-style-type: none;
+  display: none;
+  flex-direction: column;
+}
+
+#main-nav li {
+  text-align: center;
+  margin: 15px auto;
+}
+
+.nav-links,
+#logo {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#logo:hover,
+.nav-links:hover {
+  color: #ffffff;
+}
+
+#logo {
+  display: inline-block;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+#navbar-toggle {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+#navbar-toggle:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 70px;
+    align-items: center;
+  }
+
+  #main-nav {
+    display: flex !important;
+    margin-right: 150px;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  #main-nav li {
+    margin: 0;
+  }
+
+  .nav-links {
+    margin-left: 30px;
+  }
+
+  #logo {
+    margin-top: 0;
+    font-family: "Cera Basic";
+    font-size: 36px;
+    font-weight: bold;
+  }
+
+  #navbar-toggle {
+    display: none;
+  }
+}
 .header-links {
   display: inline-block;
   line-height: 5px;
@@ -133,6 +216,11 @@ button {
 
 .hero-content h2 {
   font-size: 48px;
+}
+
+.hero-content p {
+  margin-top: 40px;
+  margin-bottom: 70px;
 }
 .email,
 .form-control {
@@ -228,10 +316,11 @@ div {
 }
 
 .about {
-  width: 946px;
+  max-width: 946px;
   min-height: 265px;
   margin: 0 auto;
   margin-top: 210px;
+  padding: 30px;
 }
 
 .about p {
