@@ -159,6 +159,11 @@ header a {
     justify-content: flex-end;
   }
 
+  #main-nav a:hover {
+    border-bottom: solid 1px #57b7ff;
+    text-decoration: none;
+  }
+
   #main-nav li {
     margin: 0;
   }
@@ -324,6 +329,7 @@ div {
   min-height: 265px;
   margin: 0 auto;
   margin-top: 210px;
+  margin-bottom: 150px;
   padding: 30px;
 }
 
