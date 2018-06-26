@@ -235,6 +235,11 @@ button {
   border-radius: 0;
 }
 
+.input-group {
+  width: 75%;
+  margin: 0 auto;
+}
+
 .arrow,
 .btn-outline-secondary {
   height: 60px;
@@ -328,13 +333,18 @@ button {
   margin-right: 15px;
 }
 
+.input-large,
+text {
+  margin-right: 15px;
+}
+
 .submit {
   width: 165px;
   height: 60px;
   background-image: linear-gradient(45deg, #f79010, #ffd16b);
   color: #ffffff;
   border: none;
-  margin-left: 9.5px;
+  margin-left: 10px;
 }
 
 div {
@@ -400,31 +410,6 @@ div {
   font-size: 14px;
 }
 
-/*.quotes {
-  background-image: url("quote-background.png");
-  width: 100%;
-  min-height: 401px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  margin-bottom: 60px;
-}
-
-.quote-text {
-  text-align: center;
-  color: #ffffff;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  max-width: 950px;
-}
-
-.quote-text h2 {
-  font-size: 40px;
-}*/
-
 /*CAROUSEL TEST*/
 .carousel-background {
   background-image: url("quote-background.png");
@@ -435,6 +420,10 @@ div {
   background-size: cover;
   position: relative;
   z-index: 0;
+}
+
+.grid-text {
+  width: 100%;
 }
 .carousel-inner {
   width: 100%;
