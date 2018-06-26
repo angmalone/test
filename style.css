@@ -478,13 +478,17 @@ a .carousel-control-next {
 
 .avatar {
   float: left;
-  margin-left: 400px;
+  margin-left: 600px;
 }
 
 .title {
   display: inline-block;
   text-align: left;
-  margin-right: 400px;
+  margin-right: 550px;
+}
+
+.title h5 {
+  margin-top: -15px;
 }
 
 /*CAROUSEL TEST*/
